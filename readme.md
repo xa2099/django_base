@@ -1,0 +1,1 @@
+watchmedo auto-restart --directory=/accounts --pattern="*.py;*.html" --recursive -- gunicorn _project_.wsgi:application --bind 0.0.0.0:88
